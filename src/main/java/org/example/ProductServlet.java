@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "ProductServlet" , urlPatterns = "/product")
+@WebServlet(name = "ProductServlet", urlPatterns = "/product")
 public class ProductServlet extends HttpServlet {
 
     private static Logger logger = LoggerFactory.getLogger(ProductServlet.class);
